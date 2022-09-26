@@ -31,6 +31,15 @@ class MainActivity : AppCompatActivity() {
         println(newMove.secondMove(30,50,90))
         println(newMove.thirdMove(1,2,3,4))
 
+        println("**Dynamic Polymorphism")
+        val catValue=CAT()
+        catValue.mauvSound()
+
+        catValue.newSound()
+
+        val catAnotherValue=ANIMALS()
+        catAnotherValue.newSound()
+
 
     }
 }
