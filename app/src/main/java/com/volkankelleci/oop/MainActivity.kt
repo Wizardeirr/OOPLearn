@@ -45,6 +45,19 @@ class MainActivity : AppCompatActivity() {
 
         val userInfos=Kullanici("Volkan",26)
         userInfos.userAttribiutes()
+        val users44=UsersClass()
+
+
+        println ("***Lambda Gösterimi****")
+        val stringLamba={kullaniciGirdisi:String-> println(kullaniciGirdisi)}
+        stringLamba("ENTERPRISE")
+
+        val stringLamba2={a:Int,b:Int-> a*b}
+
+        println(stringLamba2(25,30))
+
+
+
 
 
 
