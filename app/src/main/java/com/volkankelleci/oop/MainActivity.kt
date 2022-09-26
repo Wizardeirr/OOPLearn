@@ -11,10 +11,18 @@ class MainActivity : AppCompatActivity() {
         println("Sınıflar")
         Kullanici("username",44)
 
+        println("**ENCAPSULATION**")
+
         val user=GetterClass("Volkan",26,"Shop Personal")
         println(user.name)
 
-        println(user.vacation)
+
+        println("**INHERITANCE**")
+
+        val user2=SuperGetterClass("MAN",26,"SELLER")
+        println(user2.age)
+
+        user2.showToName()
 
     }
 }
