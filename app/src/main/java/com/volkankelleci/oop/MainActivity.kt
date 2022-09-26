@@ -24,5 +24,13 @@ class MainActivity : AppCompatActivity() {
 
         user2.showToName()
 
+        println("Static Polymorphism")
+
+        val newMove=Polymorphism()
+       println(newMove.firstMove(20,30))
+        println(newMove.secondMove(30,50,90))
+        println(newMove.thirdMove(1,2,3,4))
+
+
     }
 }
