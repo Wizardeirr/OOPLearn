@@ -32,6 +32,19 @@ class MainActivity : AppCompatActivity() {
         println(newMove.firstMove(30,50,90))
         println(newMove.firstMove(1,2,3,4))
 
+        println("**Dynamic Polymorphism**")
+        val catValue=CAT()
+        catValue.mauvSound()
+        catValue.newSound()
+
+        val catAnotherValue=ANIMALS()
+        catAnotherValue.newSound()
+        catAnotherValue.catSound()
+
+        println("**Abstract Class**")
+
+        val userInfos=Kullanici("Volkan",26)
+        userInfos.userAttribiutes()
 
 
 

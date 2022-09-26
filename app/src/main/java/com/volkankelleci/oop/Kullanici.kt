@@ -1,6 +1,6 @@
 package com.volkankelleci.oop
 
-class Kullanici {
+class Kullanici:AllProporitiesClass {
 
     var isim : String?=null
     var yas : Int?=null
