@@ -11,5 +11,10 @@ class MainActivity : AppCompatActivity() {
         println("Sınıflar")
         Kullanici("username",44)
 
+        val user=GetterClass("Volkan",26,"Shop Personal")
+        println(user.name)
+
+        println(user.vacation)
+
     }
 }
